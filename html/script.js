@@ -1,9 +1,9 @@
 $(function () {
     //btn_playをクリックした時
     $("#btn_play").click(function () {
-        $("#audio_ie").attr("src", "voice_1.wav");                  //bgsoundタグのsrcを切り替えると音声が再生する。
-        //document.getElementById("audio_ie").src = "voice_1.wav";  //上の行と同じ処理。jQueryを利用しない表現
-        //document.all.audio_ie.src = "voice_1.wav";                //上の行と同じ処理。ただし、document.allの利用は現在非推奨
+        $("#audio_ie").attr("src", "voice.wav");                  //bgsoundタグのsrcを切り替えると音声が再生する。
+        //document.getElementById("audio_ie").src = "voice.wav";  //上の行と同じ処理。jQueryに依存しない書き方
+        //document.all.audio_ie.src = "voice.wav";                //上の行と同じ処理。古いIEの書き方。SS社もこの書き方。
     });
 
     //btn_pauseをクリックした時
